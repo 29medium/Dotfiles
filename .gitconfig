@@ -1,1 +1,8 @@
-/Users/29medium/Google Drive/Mackup/.gitconfig
+[user]
+	name = Paulo Sousa
+	email = 45037062+29medium@users.noreply.github.com
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
